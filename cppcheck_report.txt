@@ -1,0 +1,32 @@
+src/mlpdr/MLPDR.cpp:708:9: style:inconclusive: Found duplicate branches for 'if' and 'else'. [duplicateBranch]
+ } else if (stage == 3) {
+        ^
+src/mlpdr/MLPDR.cpp:710:4: note: Found duplicate branches for 'if' and 'else'.
+ } else {
+   ^
+src/mlpdr/MLPDR.cpp:708:9: note: Found duplicate branches for 'if' and 'else'.
+ } else if (stage == 3) {
+        ^
+src/mlpdr/MLPDR.cpp:753:9: style:inconclusive: Found duplicate branches for 'if' and 'else'. [duplicateBranch]
+ } else if (stage == 3) {
+        ^
+src/mlpdr/MLPDR.cpp:755:4: note: Found duplicate branches for 'if' and 'else'.
+ } else {
+   ^
+src/mlpdr/MLPDR.cpp:753:9: note: Found duplicate branches for 'if' and 'else'.
+ } else if (stage == 3) {
+        ^
+src/mlpdr/MLPDR.cpp:82:0: style: The function 'IoU' is never used. [unusedFunction]
+
+^
+src/mlpdr/java_api.cpp:41:0: style: The function 'cleanContext' is never used. [unusedFunction]
+
+^
+src/mlpdr/java_api.cpp:37:0: style: The function 'coreInitContext' is never used. [unusedFunction]
+
+^
+src/mlpdr/java_api.cpp:50:0: style: The function 'recogSingleJson' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
